@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 2rem 0;
+}
+
+.card {
+  background: var(--mantine-color-body);
+  border: 1px solid var(--mantine-color-default-border);
+  border-radius: var(--mantine-radius-xl);
+  padding: 2.5rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  font-weight: 800;
+}
+
+.cardTitle {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+}

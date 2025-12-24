@@ -1,0 +1,9 @@
+{
+  "title": "pricing5",
+  "category": "pricing",
+  "canvas": {
+    "center": true,
+    "maxWidth": 1200
+  },
+  "order": 5
+}

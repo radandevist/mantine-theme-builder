@@ -34,7 +34,6 @@
   width: 60px;
   height: 60px;
   border-radius: var(--mantine-radius-md);
-  /* background: linear-gradient(45deg, var(--mantine-primary-color-6), var(--mantine-primary-color-5)); */
   background: var(--mantine-primary-color-filled-hover);
   color: var(--mantine-primary-color-contrast);
   animation: float 3s ease-in-out infinite;

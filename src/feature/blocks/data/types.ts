@@ -1,7 +1,8 @@
 export interface Category {
   slug: string;
   name: string;
-  images: { dark: string; light: string };
+  images?: { dark: string; light: string };
+  comingSoon?: boolean;
 }
 
 export interface CategoriesGroup {
@@ -31,4 +32,8 @@ export interface ComponentInfo {
   slug: string;
   code: { fileName: string; language: string; code: string }[];
   attributes: any;
+}
+
+export interface ComponentsMap {
+  [key: string]: any[]; // or a more specific type for your components
 }

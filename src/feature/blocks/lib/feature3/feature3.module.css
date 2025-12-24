@@ -1,0 +1,15 @@
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateX(4px);
+  box-shadow: var(--mantine-shadow-md);
+  background: var(--mantine-color-secondary-filled);
+}
+
+.title {
+  font-weight: 800;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid var(--mantine-primary-color-filled);
+}

@@ -1,0 +1,9 @@
+.wrapper {
+  padding: 2rem 0;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  font-weight: 900;
+}

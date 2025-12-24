@@ -1,15 +1,13 @@
 import { Container } from "@mantine/core";
-import { ComponentCanvas } from "../component-canvas/component-canvas";
-import { components } from "../../data/components";
+import { CategoriesList } from "../categories/category-list";
+import { CATEGORIES } from "../../data/categories";
 
 const BlockComponents = () => {
-  const canvases = components.map((component, index) => (
-    <ComponentCanvas {...component} key={component.slug} zindex={components.length - index} />
-  ));
-
   return (
-    <Container size="xl" pt={"xl"} miw={"100%"} maw={"100%"} px={0}>
-      {canvases}
+    <Container size="xl" miw={"100%"} maw={"100%"} px={0}>
+      <div id="main">
+        <CategoriesList groups={CATEGORIES} />
+      </div>
     </Container>
   );
 };

@@ -1,0 +1,35 @@
+.wrapper {
+  padding: 4rem 0;
+  background-color: var(--mantine-color-body);
+}
+
+.title {
+  font-weight: 800;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background: var(--mantine-primary-color-light);
+  border-radius: var(--mantine-radius-md);
+}
+
+.card {
+  background-color: var(--mantine-color-body);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--mantine-primary-color-3);
+}
+
+.iconWrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--mantine-radius-md);
+  background: var(--mantine-primary-color-light);
+  color: var(--mantine-primary-color-filled);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
