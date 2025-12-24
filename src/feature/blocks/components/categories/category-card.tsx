@@ -14,8 +14,8 @@ export function CategoryCard({ count, category, className }: CategoryCardProps) 
   return (
     <Card component={Link} href={`/blocks/${category.slug}`} className={cx(classes.card, className)} radius="md">
       <CardSection className={classes.imageWrapper}>
-        <Image className={classes.image} src={category.images.light} alt={category.name} data-light />
-        <Image className={classes.image} src={category.images.dark} alt={category.name} data-dark />
+        <Image className={classes.image} src={category?.images ? category?.images.light : ""} alt={category.name} data-light />
+        <Image className={classes.image} src={category?.images ? category?.images.dark : ""} alt={category.name} data-dark />
       </CardSection>
 
       <Text className={classes.title}>{category.name}</Text>

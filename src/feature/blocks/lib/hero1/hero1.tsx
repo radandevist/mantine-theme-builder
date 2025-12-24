@@ -1,4 +1,4 @@
-import { Container, Title, Text, Button, Group, Stack, Grid, ThemeIcon, Box, Paper, rgba } from "@mantine/core";
+import { Container, Title, Text, Button, Group, Stack, Grid, ThemeIcon, Box, Paper } from "@mantine/core";
 import { GitHubLogoIcon, RocketIcon, LightningBoltIcon, StarIcon, DashboardIcon } from "@radix-ui/react-icons";
 import classes from "./hero1.module.css";
 

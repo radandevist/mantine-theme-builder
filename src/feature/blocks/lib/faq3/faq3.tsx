@@ -1,4 +1,4 @@
-import { Box, Container, Title, Text, Stack, SimpleGrid, Card, Badge } from "@mantine/core";
+import { Box, Container, Title, Text, Stack, SimpleGrid, Card } from "@mantine/core";
 import { RocketIcon, LockClosedIcon, MixerHorizontalIcon, ChatBubbleIcon, BarChartIcon, GlobeIcon } from "@radix-ui/react-icons";
 import classes from "./faq3.module.css";
 
